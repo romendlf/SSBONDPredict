@@ -10,3 +10,4 @@
 * nor_train_shulffle.tfrecords is the data for training  
 * nor_test_shulffle.tfrecords is the data for testing  
 * validation.tfrecords is the data for validation  
+  
