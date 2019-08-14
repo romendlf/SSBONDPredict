@@ -1,5 +1,5 @@
 
-* cullpdb_pc40_res2.0_R0.25_d190801_chains15139 record all the PDB ID and chain ID used during the train and test  
+* cullpdb_pc40_res2.0_R0.25_d190801_chains15139 records all the PDB ID and chain ID used during the train and test  
 ## the data in detaildata are some recording about data used for training and testing actually  
 * test_name.txt records the PDB ID and chian ID for testing
 * validation_name_noss.txt records the PDB ID for validation 
