@@ -51,7 +51,7 @@ def predict(args,sess,images,labels,logits,out):
 def main(args):
     sess=tf.Session()
     ckpt = tf.train.get_checkpoint_state(checkpoint_dir)
-    ckpt_path = os.path.join(checkpoint_dir, 'model.ckpt-1899')  # modified by xxli
+    ckpt_path = os.path.join(checkpoint_dir, 'model.ckpt-800')  # modified by xxli
     #print(ckpt_path)
     saver = tf.train.import_meta_graph(ckpt_path + '.meta')
     saver.restore(sess,ckpt_path)
